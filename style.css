@@ -1,0 +1,29 @@
+*  {
+    box-sizing:border-box;
+  }
+  
+  html, body {
+    background: #333;
+    padding: 0;
+    margin: 0;
+  }
+  .Discord  {
+    margin: 0px auto;
+    position:absolute;
+    transform: scale(0.2) translateY(1500%);
+    border: 10px solid #fff ;
+  }
+  .game-container {
+    margin: 0px auto;
+    position: relitive;
+    width: 352px;
+    height: 198px;
+    outline: 1px solid #fff;
+
+
+    transform: scale(3.5) translateY(50%) ;
+  }
+ 
+  .game-container canvas {
+    image-rendering: pixelated;
+  }
