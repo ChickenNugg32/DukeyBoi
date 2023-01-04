@@ -12,15 +12,10 @@ init() {
   //music randomizer
   const gameTheme = document.getElementById("gtheme") 
   
-  for (let i=0;  i < 1;)
-    {
-    setInterval(() => {
-    gameTheme.src = choose([ "Audio/Happy themes/happy_game_theme.mp3", ""  ]);  i =+ 1}, 45000)
-  }
   
 
     //redefine "this"
-    self = this
+    const self = this
     //Map Load
 
     function loadMap(callback){
