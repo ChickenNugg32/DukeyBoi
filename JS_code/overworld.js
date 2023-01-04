@@ -45,7 +45,7 @@ init() {
         src: "null",
       })
       loadMap()
-      hero.Sprite.draw(this.ctx)
+      hero.Sprite.draw(self.ctx)
   }
 }
 
