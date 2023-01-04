@@ -8,29 +8,25 @@ class Overworld {
 
  
 init() {
+  //chose function to randomize
   function choose(arr) {return arr[Math.floor(Math.random()*arr.length)];}
   //music randomizer
   const gameTheme = document.getElementById("gtheme") 
   
-  for (let i=0;  i < 1;)
-    {
-    setInterval(() => {
-    gameTheme.src = choose([ "Audio/Happy themes/happy_game_theme.mp3", ""  ]);  i =+ 1}, 45000)
-  }
   
 
     //redefine "this"
-    self = this
+    const self = this
     //Map Load
-
-    function loadMap(callback){
     const Map = new Map();
+    function loadMap(callback){
+      
     Map.onload =  () => {
-      self.ctx.drawMap(Map, 0, 0); 
-      callback()
-    };
-    Map.src="Maps/DemoMap1.png";
-    }
+       self.ctx.drawMap(Map, 0, 0); 
+       callback()
+      };
+      Map.src="Maps/DemoMap1.png";
+      }
 
     //Load Characters
 
@@ -49,7 +45,7 @@ init() {
         src: "null",
       })
       loadMap()
-      hero.Sprite.draw(this.ctx)
+      hero.Sprite.draw(self.ctx)
   }
 }
 
