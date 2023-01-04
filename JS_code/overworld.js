@@ -8,6 +8,7 @@ class Overworld {
 
  
 init() {
+  //chose function to randomize
   function choose(arr) {return arr[Math.floor(Math.random()*arr.length)];}
   //music randomizer
   const gameTheme = document.getElementById("gtheme") 
@@ -17,15 +18,15 @@ init() {
     //redefine "this"
     const self = this
     //Map Load
-
-    function loadMap(callback){
     const Map = new Map();
+    function loadMap(callback){
+      
     Map.onload =  () => {
-      self.ctx.drawMap(Map, 0, 0); 
-      callback()
-    };
-    Map.src="Maps/DemoMap1.png";
-    }
+       self.ctx.drawMap(Map, 0, 0); 
+       callback()
+      };
+      Map.src="Maps/DemoMap1.png";
+      }
 
     //Load Characters
 
