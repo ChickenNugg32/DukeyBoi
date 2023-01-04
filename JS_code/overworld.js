@@ -4,7 +4,7 @@ class Overworld {
     this.element = config.element;
     this.canvas = this.element.querySelector(".game-canvas");
     this.ctx = this.canvas.getContext("2d");
-    this.canvas.style.background = "purple"
+    this.canvas.style.width = 2/3*window.screen.width
   }
 
  
