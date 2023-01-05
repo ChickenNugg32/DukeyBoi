@@ -1,7 +1,7 @@
 //Overowrld  
 const canvas = document.querySelector(".game-canvas")
-canvas.style.width = window.screen.widthidth*(2/3) + "px";
-canvas.style.height = window.screen.height*(1/7) + "px";
+canvas.style.width = window.screen.width*(2/3) + "px";
+canvas.style.height = window.screen.height*(1/3) + "px";
 
 class Overworld {
   constructor(config) {
