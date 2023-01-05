@@ -59,7 +59,7 @@ init() {
       })
       
       //order gamobject load through function callback
-      loadMap(loadHero(null);
+      loadMap(loadHero(null));
       
       
   }
