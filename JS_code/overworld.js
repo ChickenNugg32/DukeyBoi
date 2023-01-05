@@ -29,7 +29,7 @@ init() {
   //redefine "this"
   const self = this
   //Map Load
-  const Map = new Map();
+  
   function loadMap(callback){
       
   Map.onload =  () => {
@@ -38,7 +38,7 @@ init() {
      };
   Map.src="Maps/DemoMap1.png";
   }
-
+const Map = new Map();
     //Load Characters
     //loadHero
   function loadHero(callback) {
