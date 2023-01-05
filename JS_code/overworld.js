@@ -41,9 +41,10 @@ init() {
         y: 7,
         src: "Images/Spritesheet.png",
       })
-      callback
+      callback()
       hero.Sprite.draw(self.ctx)
       }
+  
       //loadNPC1
   function loadNPC1() {
       const npc1 = new GameObject({
@@ -53,7 +54,7 @@ init() {
       })
       
       //order gamobject load through function callback
-      loadMap(loadHero(null));
+      loadMap(loadHero(loadNPC1));
       const Map = new Map();
       
   }
