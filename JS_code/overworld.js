@@ -31,12 +31,13 @@ init() {
     //Load Characters
 
     //loadHero
+  function loadHero() {
       const hero = new GameObject({
         x: 16,
         y: 7,
         src: "Images/Spritesheet.png"
       })
-
+      }
       //loadNPC1
 
       const npc1 = new GameObject({
@@ -44,7 +45,7 @@ init() {
         y: 9,
         src: "null",
       })
-      loadMap()
+      loadMap(loadHero())
       hero.Sprite.draw(self.ctx)
   }
 }
