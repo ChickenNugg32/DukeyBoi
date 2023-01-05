@@ -22,21 +22,20 @@ init() {
   function choose(arr) {return arr[Math.floor(Math.random()*arr.length)];}
   
   //music randomizer
-  const gameTheme = document.getElementById("gtheme") 
+  const gameTheme = document.getElementById("gtheme") ;
   
   
 
   //redefine "this"
-  const self = this
-  //Map Load
+  const self = this;
   
-  function loadMap(callback){
-      
-  Map.onload =  () => {
-     self.ctx.drawMap(Map, 0, 0); 
-     callback()
-     };
-  Map.src="Maps/DemoMap1.png";
+  //Map Load
+  function loadMap(callback) {    
+    Map.onload =  () => {
+       self.ctx.drawMap(Map, 0, 0); 
+       callback()
+       };
+    Map.src="Maps/DemoMap1.png";
   }
 const Map = new Map();
     //Load Characters
