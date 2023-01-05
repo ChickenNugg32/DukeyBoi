@@ -25,8 +25,7 @@ init() {
   const self = this;
   
   //Map Load
-  function loadMap(callback) {
-    const Map = new Map();    
+  function loadMap(callback) {   
     Map.onload =  () => {
        self.ctx.drawMap(Map, 0, 0); 
        callback()
