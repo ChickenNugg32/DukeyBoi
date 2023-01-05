@@ -17,11 +17,7 @@
   .game-container {
     margin: 0px auto;
     position: relitive;
-    width: 352px;
-    height: 198px;
     outline: 1px solid #fff;
-
-
     transform: scale(3.5) translateY(50%) ;
   }
  
