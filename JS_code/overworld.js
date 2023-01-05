@@ -4,12 +4,13 @@ class Overworld {
     this.element = config.element;
     this.canvas = this.element.querySelector(".game-canvas");
     this.ctx = this.canvas.getContext("2d");
-    this.canvas.style.width = 2/3*window.screen.width
-    this.canvas.style.height = 6/7*window.screen.height
+    
   }
 
  
 init() {
+  const canvas = document.querySelector(".game-canvas")
+  canvas.style.width = window.screen.width*(2/3) + "px"
   //chose function to randomize
   function choose(arr) {return arr[Math.floor(Math.random()*arr.length)];}
   //music randomizer
