@@ -37,7 +37,7 @@ init() {
        };
     Map.src="Maps/DemoMap1.png";
   }
-const Map = new Map();
+
     //Load Characters
     //loadHero
   function loadHero(callback) {
@@ -59,7 +59,7 @@ const Map = new Map();
       
       //order gamobject load through function callback
       loadMap(loadHero(null));
-      
+      const Map = new Map();
       
   }
 }
