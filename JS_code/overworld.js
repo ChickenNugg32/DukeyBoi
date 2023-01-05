@@ -1,7 +1,7 @@
 //Overowrld  
 const canvas = document.querySelector(".game-canvas")
-canvas.style.width = window.screen.availWidth*(2/3) + "px";
-canvas.style.height = window.screen.availHeight*(1/7) + "px";
+canvas.style.width = window.screen.widthidth*(2/3) + "px";
+canvas.style.height = window.screen.height*(1/7) + "px";
 
 class Overworld {
   constructor(config) {
@@ -13,11 +13,6 @@ class Overworld {
 
  
 init() {
-  //canvas consistint height
-  const canvas = document.querySelector(".game-canvas")
-  canvas.style.width = window.screen.width*(2/3) + "px";
-  
-  
   //chose function to randomize
   function choose(arr) {return arr[Math.floor(Math.random()*arr.length)];}
   
