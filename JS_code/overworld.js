@@ -1,8 +1,5 @@
 //Overowrld  
-const canvas = document.querySelector(".game-container")
 
-alert(window.screen.width + " width")
-alert(window.screen.height + " height")
 
 class Overworld {
   constructor(config) {
