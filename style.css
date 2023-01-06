@@ -14,9 +14,9 @@
     transform: scale(0.2) translateY(1500%);
     border: 10px solid #fff ;
   }
-  .game-container {
+  .game-containe {
     margin: 0px auto;
-    position: relitive;
+    position: relative;
     outline: 1px solid #fff;
     
   }
