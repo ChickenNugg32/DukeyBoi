@@ -1,7 +1,7 @@
 //Overowrld  
 const canvas = document.querySelector(".game-canvas")
-canvas.style.width = window.screen.width/3 + "px";
-canvas.style.height = window.screen.height/3 + "px";
+canvas.style.width = window.screen.width + "px";
+canvas.style.height = window.screen.height + "px";
 alert(window.screen.width + " width")
 alert(window.screen.height + " height")
 
