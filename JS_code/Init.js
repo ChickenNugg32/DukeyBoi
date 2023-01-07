@@ -8,7 +8,7 @@
   })();
   console.log(Overworld);
   function choose(arr) {return arr[Math.floor(Math.random()*arr.length)];}
-  console.log(choose([
+  alert(choose([
     'Oh, hello!',
     'hey, how\'s it hangin',
     '*ahem* But may i ask why you\'re here?',
