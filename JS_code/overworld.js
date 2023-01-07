@@ -5,7 +5,7 @@ const canvas= document.getElementById(".game-canvas");
 class Overworld {
   constructor(config) {
     this.element = config.element;
-    this.canvas = this.element.querySelector(".game-canvas");
+    this.canvas = this.element.querySelector(".gamecanvas");
     this.ctx = this.canvas.getContext("2d");
     
   }
