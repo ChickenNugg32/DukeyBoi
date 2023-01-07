@@ -20,7 +20,6 @@
     margin:auto;
     width:30;
     height:30;
-    transform: scale(0.5) translateY(1000%)
   }
  .game-container canvas {
     image-rendering: pixelated;
