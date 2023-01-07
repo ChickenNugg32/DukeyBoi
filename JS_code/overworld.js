@@ -1,4 +1,6 @@
-
+const cont = querySelector(".game-container")
+cont.style.width = window.screen.width/3
+cont.style.width = window.screen.height/2
 
 
 class Overworld {
