@@ -16,7 +16,6 @@
   }
   .game-container {
     outline: 1px solid #fff;
-    margin:auto;
   }
  .game-container canvas {
     image-rendering: pixelated;
