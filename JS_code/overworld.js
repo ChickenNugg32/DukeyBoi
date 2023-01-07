@@ -1,6 +1,6 @@
 var cont = document.getElementById(".game-container");
-cont.style.width = window.screen.width/2;
-cont.style.height = window.screen.height/2;
+cont.style.width = window.screen.width/2 + "px";
+cont.style.height = window.screen.height/2 + "px";
 
 
 class Overworld {
