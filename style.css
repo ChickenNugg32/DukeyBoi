@@ -17,8 +17,7 @@
   .game-container {
     
     outline: 1px solid #fff;
-    margin:auto
-    position:absolute;
+    margin:auto;
     width:30;
     height:30;
   }
