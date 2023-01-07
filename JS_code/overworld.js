@@ -1,6 +1,6 @@
-const cont = document.querySelector(".game-container")
-cont.style.width = window.screen.width/2
-cont.style.height = window.screen.height/2
+var cont = document.getElementById(".game-container");
+cont.style.width = window.screen.width/2;
+cont.style.height = window.screen.height/2;
 
 
 class Overworld {
