@@ -1,5 +1,6 @@
 //Overowrld  
-const canvas= document.getElementById()
+const canvas= document.getElementById(".game-canvas");
+
 
 class Overworld {
   constructor(config) {
