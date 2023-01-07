@@ -22,6 +22,4 @@
     height:30;
   }
  
-  .game-container canvas {
-    image-rendering: pixelated;
-  }
+  
