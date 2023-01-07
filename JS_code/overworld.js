@@ -6,7 +6,7 @@ cont.style.width = window.screen.height/2
 class Overworld {
   constructor(config) {
     this.element = config.element;
-    this.canvas = this.element.querySelector(".game-canvas");
+    this.canvas = document.querySelector(".game-canvas");
     this.ctx = this.canvas.getContext("2d");
     
   }
