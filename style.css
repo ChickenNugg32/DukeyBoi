@@ -15,11 +15,8 @@
     border: 10px solid #fff ;
   }
   .game-container {
-    
     outline: 1px solid #fff;
     margin:auto;
-    width:30;
-    height:30;
   }
  .game-container canvas {
     image-rendering: pixelated;
