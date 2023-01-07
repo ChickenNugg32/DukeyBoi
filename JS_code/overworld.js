@@ -1,5 +1,5 @@
 //Overowrld  
-
+const canvas= document.getElementById()
 
 class Overworld {
   constructor(config) {
