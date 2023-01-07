@@ -17,7 +17,10 @@
   .game-container {
     
     outline: 1px solid #fff;
-    
+    margin:auto
+    position:relative;
+    width:30;
+    height:30;
   }
  
   .game-container canvas {
