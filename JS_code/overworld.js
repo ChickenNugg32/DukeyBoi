@@ -1,4 +1,4 @@
-gameCanvas = document.getElementById(".game-container");
+const gameCanvas = document.getElementById(".game-container");
 gameCanvas.style.width = window.screen.width/2 + "px";
 gameCanvas.style.height = window.screen.height/2 + "px";
 
