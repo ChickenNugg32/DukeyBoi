@@ -1,6 +1,6 @@
 const gameCanvas = document.getElementById(".game-container");
-gameCanvas.style.width = window.screen.width/2 + "px";
-gameCanvas.style.height = window.screen.height/2 + "px";
+gameCanvas.style.width = window.screen.width*(2/3) + "px";
+gameCanvas.style.height = window.screen.height*(1/2) + "px";
 
 
 class Overworld {
