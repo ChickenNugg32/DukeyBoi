@@ -15,6 +15,7 @@
     border: 10px solid #fff ;
   }
   .game-container {
+    margin-top: 400px;
     outline: 1px solid #fff;
   }
  .game-container canvas {
